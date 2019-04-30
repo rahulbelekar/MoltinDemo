@@ -7,5 +7,6 @@ target 'MoltinDemo' do
 
   # Pods for MoltinDemo
 pod 'Moltin'
+pod 'Nuke'
 
 end
