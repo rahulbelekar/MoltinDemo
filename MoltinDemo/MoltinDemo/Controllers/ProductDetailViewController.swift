@@ -8,7 +8,6 @@
 
 import UIKit
 import moltin
-import Nuke
 
 class ProductDetailViewController: UIViewController {
     
@@ -36,15 +35,10 @@ class ProductDetailViewController: UIViewController {
     
     //MARK:- Methods
     func updateUI() {
-        if let imageData = product.mainImage, let url = URL(string: imageData.link[""] ?? "") {
-            Nuke.loadImage(with: url, options: ImageLoadingOptions.shared, into: coverImg, progress: nil) { (imgResponse, imgError) in
-                
-            }
-        }
         titleTxt?.text = product.name
         descTxt?.text = product.description
         if let price = product.price?[0] {
-            priceTxt?.text = "\(price.currency) \(price.amount)"
+            priceTxt?.text = "\(price.currency) \(price.amount)".addDecimalPoint()
         }
     }
     
