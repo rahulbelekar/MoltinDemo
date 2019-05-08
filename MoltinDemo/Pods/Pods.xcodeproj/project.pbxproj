@@ -1,0 +1,753 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1227FFF0A609038C0FFAE2BB8944D324 /* CartRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3FCBFD258257CFFD3EBD0374320CF7B /* CartRequest.swift */; };
+		157FCB4E72F8DF5DF94646DE027C54A9 /* Moltin-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E626ECAB465C8D8EC4F541560833AD9 /* Moltin-dummy.m */; };
+		169A0A2A1E4DFDB1B161F6D579AD1E20 /* Pods-MoltinDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 717C0C6C26C104A2075752A94B4F2D44 /* Pods-MoltinDemo-dummy.m */; };
+		1EEA4D69C9581B5FB9F9446619667326 /* Info-tvOS.plist in Sources */ = {isa = PBXBuildFile; fileRef = DC96518AF973D5B2994CF1F5A9134D08 /* Info-tvOS.plist */; };
+		233C1982CA96C771137A6C124115553B /* Flow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 021113F865D9F54AABECA9B027F80B49 /* Flow.swift */; };
+		239C690ABE2D53AC34D5283DF791ED79 /* DataSerializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B82A087392AE47AFA4D83B47A211D1E /* DataSerializer.swift */; };
+		2CAF4FF3AE190B094BAEEB5E27333AEC /* URLSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = B88FD795F69EDC5EA112F01136B5BFE0 /* URLSession.swift */; };
+		318524ADE9A7ACC8C0F305A1E193E0CD /* PaymentMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE7416F2E7DBBC0CC423CD04C14FEDFF /* PaymentMethod.swift */; };
+		338ED348A5ABCE7BE675271D579FD188 /* CodableExtract.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B13082F11AB87866222ECA309AC4738 /* CodableExtract.swift */; };
+		3C0D1F855BA8D173C6C27350D281BEE8 /* Prices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 411E685CF1131ECD447A6AF634BB5CF0 /* Prices.swift */; };
+		3DC555634069246E08FC9580E2BF2CC3 /* CustomerRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA69750A0DFE089F9A7A7CA2E2B77D31 /* CustomerRequest.swift */; };
+		3EFCB7AFB5BA94CE5056F2926AE29916 /* Currency.swift in Sources */ = {isa = PBXBuildFile; fileRef = F09C64A9D4F898C32324109CB26361F7 /* Currency.swift */; };
+		421B558F6DBCE2B2AD46632688214B19 /* Customer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44488BFBD33EB5FAC7B3AF98DBB177AE /* Customer.swift */; };
+		46E4970F4FE9D2FC5A1A6ADC78CB72C4 /* Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78430C52A50F5C81A2DB1FB76E2C808E /* Error.swift */; };
+		5C2B72C530D09C7286CEF03980A8CA9F /* DateFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE76056637D606D4EED48AACB0E18B2 /* DateFormatter.swift */; };
+		60FC0E2237A64CE19CC99006394FE3D5 /* FlowRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F93815F30EBEF0E9AF8E8F742707CED /* FlowRequest.swift */; };
+		6657051015D406C09CD762D4E829D2DE /* Collection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FC08F01803CC0C980F1E33F219F287 /* Collection.swift */; };
+		6719A3768FE268219ECC6E09BC441D33 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 754F790F7C89273C8C3286A5198F4572 /* File.swift */; };
+		6B3B3130C056B4CE5E6DDED97720B8DB /* HTTP.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB5466671CD299E6FB100DC139233E0E /* HTTP.swift */; };
+		6F45D0369CF6972F008414178B467DC9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		716167A34420A4700ACF44C0C91738DE /* Timestamps.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5835103A381396A9F72A95B086D2166E /* Timestamps.swift */; };
+		73FC9A487DB0C186E59BD2105107B2D2 /* MoltinAuth.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF6E867C8783D62C80F838D4905C766C /* MoltinAuth.swift */; };
+		8AE675C23C89D80651BD9BF85531B09B /* Pagination.swift in Sources */ = {isa = PBXBuildFile; fileRef = B36BD43AFD5C1724394AC9DBA87034D6 /* Pagination.swift */; };
+		90ACBC9039E6D46A8C9E18D873C5168F /* Info-watchOS.plist in Sources */ = {isa = PBXBuildFile; fileRef = C4B1B145D2D1187AA80ABE1EB7352442 /* Info-watchOS.plist */; };
+		952152DB5BABD9613639C3D07B30B3B9 /* MoltinRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C608A33890205229C07F286F95FABC3 /* MoltinRequest.swift */; };
+		9788F7A7A5E791CA773F77DE32EE5D04 /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24F49253F3AB73749A8FFA001EDB19A2 /* Order.swift */; };
+		99F61853CDEC72A6778A23BF8799D062 /* Parser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92866F0DB1B074A7A86A2FE1F81D48B9 /* Parser.swift */; };
+		A379AD5483F2A0B08AC25BEB10983B65 /* Address.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B6D1FC4730C5297AA4003F4EA48894F /* Address.swift */; };
+		A4F82BEF6FDAEF73471D5A7AD3A17706 /* Moltin-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 361EBCCB5E7882F0E0902188DA6B05AA /* Moltin-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A945248F86AF442F0B82AD27B1EA4F2B /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFCEEC2E46A0CE11FC4A30326B988504 /* Category.swift */; };
+		B0A5A2C104E881EDB404D59A37DD3B7A /* Requests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCA3EBC1358B0AF3FD3DC842F513436A /* Requests.swift */; };
+		B453D8F1B8DF6008368B13F579F18711 /* Relationship.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A7B04224898FFC24D9F1657D4C8F400 /* Relationship.swift */; };
+		B6B65565619D71E902596013F5E8AAF2 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F18F9C72B3C3C6FC0AB9AF61D32C816 /* Product.swift */; };
+		BBFFB75AC4F7E7305CE1443B7051A32A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		BE7BF9F73D82B4BCF61EBF9E0036D6B3 /* moltin.h in Headers */ = {isa = PBXBuildFile; fileRef = 1AD827B9D5261092624CA60718768355 /* moltin.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C11E3A926E9B4B042F2F5F3070CEE3DD /* Brand.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6E679618E2C169AA06866F951C0B01D /* Brand.swift */; };
+		CCB2B87D0CFBB69F3B84CBC6475F3345 /* Moltin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 885700237F78570351C6E53D3F5AD60E /* Moltin.swift */; };
+		D0972E7C35165995E19C5590179F96D9 /* Pods-MoltinDemo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C12551F8808F5AC9DC333C5A3B79C321 /* Pods-MoltinDemo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D477D9D897E3CA3D8C56157FF4CC066C /* Query.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70E993C5F10CF22BBC3214179FA0EE78 /* Query.swift */; };
+		D8AC79E3AD95A41D2D15BCB5DE494C3E /* Cart.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE1E847078FA0A6778B276EB87B24E4C /* Cart.swift */; };
+		DAFD003B7E2329D6E1F909381373C379 /* Info-iOS.plist in Sources */ = {isa = PBXBuildFile; fileRef = E2F58AD3F795328C3EE77034E707D042 /* Info-iOS.plist */; };
+		FE94655046B20DF8AF5F1F07102CF0F6 /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18FE81B3B9BB001F5DFE98057B3E82A5 /* Config.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		74A274F4414B2232DD1F4213A015C607 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 90FE9118A4A51C2716FBAEAC877320F3;
+			remoteInfo = Moltin;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		021113F865D9F54AABECA9B027F80B49 /* Flow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Flow.swift; path = Sources/SDK/Models/Flow.swift; sourceTree = "<group>"; };
+		0B13082F11AB87866222ECA309AC4738 /* CodableExtract.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CodableExtract.swift; path = Sources/SDK/Utils/CodableExtract.swift; sourceTree = "<group>"; };
+		0BA7CE6ECA88400DF20EAF6844CF1D60 /* moltin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = moltin.framework; path = Moltin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0C608A33890205229C07F286F95FABC3 /* MoltinRequest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MoltinRequest.swift; path = Sources/SDK/Requests/MoltinRequest.swift; sourceTree = "<group>"; };
+		0F18F9C72B3C3C6FC0AB9AF61D32C816 /* Product.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Product.swift; path = Sources/SDK/Models/Product.swift; sourceTree = "<group>"; };
+		1157A9C65386294F6ADA59050B790624 /* Pods-MoltinDemo-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MoltinDemo-resources.sh"; sourceTree = "<group>"; };
+		18FE81B3B9BB001F5DFE98057B3E82A5 /* Config.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Config.swift; path = Sources/SDK/Utils/Config.swift; sourceTree = "<group>"; };
+		1AD827B9D5261092624CA60718768355 /* moltin.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = moltin.h; path = Sources/moltin.h; sourceTree = "<group>"; };
+		24F49253F3AB73749A8FFA001EDB19A2 /* Order.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Order.swift; path = Sources/SDK/Models/Order.swift; sourceTree = "<group>"; };
+		2B82A087392AE47AFA4D83B47A211D1E /* DataSerializer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DataSerializer.swift; path = Sources/SDK/Utils/DataSerializer.swift; sourceTree = "<group>"; };
+		2F93815F30EBEF0E9AF8E8F742707CED /* FlowRequest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FlowRequest.swift; path = Sources/SDK/Requests/FlowRequest.swift; sourceTree = "<group>"; };
+		321B3B4E2C660CDA63B76A6AA588953E /* Pods-MoltinDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MoltinDemo-acknowledgements.plist"; sourceTree = "<group>"; };
+		361EBCCB5E7882F0E0902188DA6B05AA /* Moltin-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Moltin-umbrella.h"; sourceTree = "<group>"; };
+		3D414839BA75787E692C4341B4224679 /* Moltin.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Moltin.xcconfig; sourceTree = "<group>"; };
+		411E685CF1131ECD447A6AF634BB5CF0 /* Prices.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Prices.swift; path = Sources/SDK/Models/Prices.swift; sourceTree = "<group>"; };
+		44488BFBD33EB5FAC7B3AF98DBB177AE /* Customer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Customer.swift; path = Sources/SDK/Models/Customer.swift; sourceTree = "<group>"; };
+		48E2FE301F0C01C707A6C96310B87A63 /* Pods-MoltinDemo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MoltinDemo-frameworks.sh"; sourceTree = "<group>"; };
+		4AFEE782444684645A0D4555CA5FDEDE /* Pods-MoltinDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MoltinDemo.release.xcconfig"; sourceTree = "<group>"; };
+		5835103A381396A9F72A95B086D2166E /* Timestamps.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Timestamps.swift; path = Sources/SDK/Models/Timestamps.swift; sourceTree = "<group>"; };
+		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		5B6D1FC4730C5297AA4003F4EA48894F /* Address.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Address.swift; path = Sources/SDK/Models/Address.swift; sourceTree = "<group>"; };
+		6620A2DF5B65F41EB7F3AD26D078892D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6AC440473A640885A0C932E82F6EC345 /* Moltin-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Moltin-prefix.pch"; sourceTree = "<group>"; };
+		70E993C5F10CF22BBC3214179FA0EE78 /* Query.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Query.swift; path = Sources/SDK/Utils/Query.swift; sourceTree = "<group>"; };
+		717C0C6C26C104A2075752A94B4F2D44 /* Pods-MoltinDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MoltinDemo-dummy.m"; sourceTree = "<group>"; };
+		754F790F7C89273C8C3286A5198F4572 /* File.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = File.swift; path = Sources/SDK/Models/File.swift; sourceTree = "<group>"; };
+		78430C52A50F5C81A2DB1FB76E2C808E /* Error.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Error.swift; path = Sources/SDK/Utils/Error.swift; sourceTree = "<group>"; };
+		7A7B04224898FFC24D9F1657D4C8F400 /* Relationship.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Relationship.swift; path = Sources/SDK/Models/Relationship.swift; sourceTree = "<group>"; };
+		84FC08F01803CC0C980F1E33F219F287 /* Collection.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Collection.swift; path = Sources/SDK/Models/Collection.swift; sourceTree = "<group>"; };
+		885700237F78570351C6E53D3F5AD60E /* Moltin.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Moltin.swift; path = Sources/SDK/Moltin.swift; sourceTree = "<group>"; };
+		8E626ECAB465C8D8EC4F541560833AD9 /* Moltin-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Moltin-dummy.m"; sourceTree = "<group>"; };
+		92866F0DB1B074A7A86A2FE1F81D48B9 /* Parser.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Parser.swift; path = Sources/SDK/Utils/Parser.swift; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9A531EE328F1CA35F4F2618A81BC11EE /* Pods-MoltinDemo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MoltinDemo.modulemap"; sourceTree = "<group>"; };
+		9C01FCDC5EB423BB47D30A8382C76C69 /* Pods-MoltinDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MoltinDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B36BD43AFD5C1724394AC9DBA87034D6 /* Pagination.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Pagination.swift; path = Sources/SDK/Utils/Pagination.swift; sourceTree = "<group>"; };
+		B6E679618E2C169AA06866F951C0B01D /* Brand.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Brand.swift; path = Sources/SDK/Models/Brand.swift; sourceTree = "<group>"; };
+		B78ED9B42543B93DD1CA9E76E0386FBE /* Moltin.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Moltin.modulemap; sourceTree = "<group>"; };
+		B88FD795F69EDC5EA112F01136B5BFE0 /* URLSession.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = URLSession.swift; path = Sources/SDK/Utils/URLSession.swift; sourceTree = "<group>"; };
+		BDE76056637D606D4EED48AACB0E18B2 /* DateFormatter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DateFormatter.swift; path = Sources/SDK/Utils/DateFormatter.swift; sourceTree = "<group>"; };
+		BE1E847078FA0A6778B276EB87B24E4C /* Cart.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Cart.swift; path = Sources/SDK/Models/Cart.swift; sourceTree = "<group>"; };
+		C0A4FA4416B95EA6DC593AEC8F0DDA45 /* Pods-MoltinDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MoltinDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		C12551F8808F5AC9DC333C5A3B79C321 /* Pods-MoltinDemo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MoltinDemo-umbrella.h"; sourceTree = "<group>"; };
+		C3FCBFD258257CFFD3EBD0374320CF7B /* CartRequest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CartRequest.swift; path = Sources/SDK/Requests/CartRequest.swift; sourceTree = "<group>"; };
+		C4B1B145D2D1187AA80ABE1EB7352442 /* Info-watchOS.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = "Info-watchOS.plist"; path = "Sources/Info-watchOS.plist"; sourceTree = "<group>"; };
+		CA3B7CDA830A6E210EA576923C133959 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB5466671CD299E6FB100DC139233E0E /* HTTP.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HTTP.swift; path = Sources/SDK/Utils/HTTP.swift; sourceTree = "<group>"; };
+		D1ADD7488C6CEC973BEAADE0C19615B2 /* Pods_MoltinDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MoltinDemo.framework; path = "Pods-MoltinDemo.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC96518AF973D5B2994CF1F5A9134D08 /* Info-tvOS.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = "Info-tvOS.plist"; path = "Sources/Info-tvOS.plist"; sourceTree = "<group>"; };
+		E2F58AD3F795328C3EE77034E707D042 /* Info-iOS.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = "Info-iOS.plist"; path = "Sources/Info-iOS.plist"; sourceTree = "<group>"; };
+		EA69750A0DFE089F9A7A7CA2E2B77D31 /* CustomerRequest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CustomerRequest.swift; path = Sources/SDK/Requests/CustomerRequest.swift; sourceTree = "<group>"; };
+		F09C64A9D4F898C32324109CB26361F7 /* Currency.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Currency.swift; path = Sources/SDK/Models/Currency.swift; sourceTree = "<group>"; };
+		FCA3EBC1358B0AF3FD3DC842F513436A /* Requests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Requests.swift; path = Sources/SDK/Requests/Requests.swift; sourceTree = "<group>"; };
+		FE7416F2E7DBBC0CC423CD04C14FEDFF /* PaymentMethod.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PaymentMethod.swift; path = Sources/SDK/Models/PaymentMethod.swift; sourceTree = "<group>"; };
+		FF6E867C8783D62C80F838D4905C766C /* MoltinAuth.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MoltinAuth.swift; path = Sources/SDK/Requests/MoltinAuth.swift; sourceTree = "<group>"; };
+		FFCEEC2E46A0CE11FC4A30326B988504 /* Category.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Category.swift; path = Sources/SDK/Models/Category.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1FCA722C70F1A1F7C924FBD07BF14400 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBFFB75AC4F7E7305CE1443B7051A32A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7479B9E3BC21D673DB9D01F616218BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F45D0369CF6972F008414178B467DC9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0257BFE6B2A81E53FDA849544AF83265 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				26FFC4A4153E3D6F4FB8AF800501F3EB /* Moltin */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		26FFC4A4153E3D6F4FB8AF800501F3EB /* Moltin */ = {
+			isa = PBXGroup;
+			children = (
+				5B6D1FC4730C5297AA4003F4EA48894F /* Address.swift */,
+				B6E679618E2C169AA06866F951C0B01D /* Brand.swift */,
+				BE1E847078FA0A6778B276EB87B24E4C /* Cart.swift */,
+				C3FCBFD258257CFFD3EBD0374320CF7B /* CartRequest.swift */,
+				FFCEEC2E46A0CE11FC4A30326B988504 /* Category.swift */,
+				0B13082F11AB87866222ECA309AC4738 /* CodableExtract.swift */,
+				84FC08F01803CC0C980F1E33F219F287 /* Collection.swift */,
+				18FE81B3B9BB001F5DFE98057B3E82A5 /* Config.swift */,
+				F09C64A9D4F898C32324109CB26361F7 /* Currency.swift */,
+				44488BFBD33EB5FAC7B3AF98DBB177AE /* Customer.swift */,
+				EA69750A0DFE089F9A7A7CA2E2B77D31 /* CustomerRequest.swift */,
+				2B82A087392AE47AFA4D83B47A211D1E /* DataSerializer.swift */,
+				BDE76056637D606D4EED48AACB0E18B2 /* DateFormatter.swift */,
+				78430C52A50F5C81A2DB1FB76E2C808E /* Error.swift */,
+				754F790F7C89273C8C3286A5198F4572 /* File.swift */,
+				021113F865D9F54AABECA9B027F80B49 /* Flow.swift */,
+				2F93815F30EBEF0E9AF8E8F742707CED /* FlowRequest.swift */,
+				CB5466671CD299E6FB100DC139233E0E /* HTTP.swift */,
+				E2F58AD3F795328C3EE77034E707D042 /* Info-iOS.plist */,
+				DC96518AF973D5B2994CF1F5A9134D08 /* Info-tvOS.plist */,
+				C4B1B145D2D1187AA80ABE1EB7352442 /* Info-watchOS.plist */,
+				1AD827B9D5261092624CA60718768355 /* moltin.h */,
+				885700237F78570351C6E53D3F5AD60E /* Moltin.swift */,
+				FF6E867C8783D62C80F838D4905C766C /* MoltinAuth.swift */,
+				0C608A33890205229C07F286F95FABC3 /* MoltinRequest.swift */,
+				24F49253F3AB73749A8FFA001EDB19A2 /* Order.swift */,
+				B36BD43AFD5C1724394AC9DBA87034D6 /* Pagination.swift */,
+				92866F0DB1B074A7A86A2FE1F81D48B9 /* Parser.swift */,
+				FE7416F2E7DBBC0CC423CD04C14FEDFF /* PaymentMethod.swift */,
+				411E685CF1131ECD447A6AF634BB5CF0 /* Prices.swift */,
+				0F18F9C72B3C3C6FC0AB9AF61D32C816 /* Product.swift */,
+				70E993C5F10CF22BBC3214179FA0EE78 /* Query.swift */,
+				7A7B04224898FFC24D9F1657D4C8F400 /* Relationship.swift */,
+				FCA3EBC1358B0AF3FD3DC842F513436A /* Requests.swift */,
+				5835103A381396A9F72A95B086D2166E /* Timestamps.swift */,
+				B88FD795F69EDC5EA112F01136B5BFE0 /* URLSession.swift */,
+				D22139C13ADEF04A9B65FDA40DC4E96E /* Support Files */,
+			);
+			name = Moltin;
+			path = Moltin;
+			sourceTree = "<group>";
+		};
+		56CA2DD5F085DA94057F9C4CC1C8BE22 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0BA7CE6ECA88400DF20EAF6844CF1D60 /* moltin.framework */,
+				D1ADD7488C6CEC973BEAADE0C19615B2 /* Pods_MoltinDemo.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		59BA6640F716A7FC11B481248886D0F9 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				FAA6108279AC41374F2EE04EBF646F3C /* Pods-MoltinDemo */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		5E0D919E635D23B70123790B8308F8EF /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				0257BFE6B2A81E53FDA849544AF83265 /* Pods */,
+				56CA2DD5F085DA94057F9C4CC1C8BE22 /* Products */,
+				59BA6640F716A7FC11B481248886D0F9 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5E0D919E635D23B70123790B8308F8EF /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D22139C13ADEF04A9B65FDA40DC4E96E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6620A2DF5B65F41EB7F3AD26D078892D /* Info.plist */,
+				B78ED9B42543B93DD1CA9E76E0386FBE /* Moltin.modulemap */,
+				3D414839BA75787E692C4341B4224679 /* Moltin.xcconfig */,
+				8E626ECAB465C8D8EC4F541560833AD9 /* Moltin-dummy.m */,
+				6AC440473A640885A0C932E82F6EC345 /* Moltin-prefix.pch */,
+				361EBCCB5E7882F0E0902188DA6B05AA /* Moltin-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Moltin";
+			sourceTree = "<group>";
+		};
+		FAA6108279AC41374F2EE04EBF646F3C /* Pods-MoltinDemo */ = {
+			isa = PBXGroup;
+			children = (
+				CA3B7CDA830A6E210EA576923C133959 /* Info.plist */,
+				9A531EE328F1CA35F4F2618A81BC11EE /* Pods-MoltinDemo.modulemap */,
+				9C01FCDC5EB423BB47D30A8382C76C69 /* Pods-MoltinDemo-acknowledgements.markdown */,
+				321B3B4E2C660CDA63B76A6AA588953E /* Pods-MoltinDemo-acknowledgements.plist */,
+				717C0C6C26C104A2075752A94B4F2D44 /* Pods-MoltinDemo-dummy.m */,
+				48E2FE301F0C01C707A6C96310B87A63 /* Pods-MoltinDemo-frameworks.sh */,
+				1157A9C65386294F6ADA59050B790624 /* Pods-MoltinDemo-resources.sh */,
+				C12551F8808F5AC9DC333C5A3B79C321 /* Pods-MoltinDemo-umbrella.h */,
+				C0A4FA4416B95EA6DC593AEC8F0DDA45 /* Pods-MoltinDemo.debug.xcconfig */,
+				4AFEE782444684645A0D4555CA5FDEDE /* Pods-MoltinDemo.release.xcconfig */,
+			);
+			name = "Pods-MoltinDemo";
+			path = "Target Support Files/Pods-MoltinDemo";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		24FF92D4619734C7C982411D6852EF96 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0972E7C35165995E19C5590179F96D9 /* Pods-MoltinDemo-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB25D9F52B2813C387F211894388C4DA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4F82BEF6FDAEF73471D5A7AD3A17706 /* Moltin-umbrella.h in Headers */,
+				BE7BF9F73D82B4BCF61EBF9E0036D6B3 /* moltin.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		47581E4B94FFD7EB8DFD4A273560AA13 /* Pods-MoltinDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 26657CFE2F23CB33D33AADA2AFA4431D /* Build configuration list for PBXNativeTarget "Pods-MoltinDemo" */;
+			buildPhases = (
+				24FF92D4619734C7C982411D6852EF96 /* Headers */,
+				69B6946F1A7BE5905D22CAB2A4092E12 /* Sources */,
+				C7479B9E3BC21D673DB9D01F616218BB /* Frameworks */,
+				21CFD76C35CBF4C5570D4ED51BC98584 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3B2417E4FD150C81E19854D49FC49C82 /* PBXTargetDependency */,
+			);
+			name = "Pods-MoltinDemo";
+			productName = "Pods-MoltinDemo";
+			productReference = D1ADD7488C6CEC973BEAADE0C19615B2 /* Pods_MoltinDemo.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		90FE9118A4A51C2716FBAEAC877320F3 /* Moltin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 29795077665EDEC8A663E50DFABB9930 /* Build configuration list for PBXNativeTarget "Moltin" */;
+			buildPhases = (
+				DB25D9F52B2813C387F211894388C4DA /* Headers */,
+				4054333EAE5ABAC6488F33ED4DA6C6B1 /* Sources */,
+				1FCA722C70F1A1F7C924FBD07BF14400 /* Frameworks */,
+				EF34EAB270A3FBA4EA3833E02E602BFF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Moltin;
+			productName = Moltin;
+			productReference = 0BA7CE6ECA88400DF20EAF6844CF1D60 /* moltin.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 56CA2DD5F085DA94057F9C4CC1C8BE22 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				90FE9118A4A51C2716FBAEAC877320F3 /* Moltin */,
+				47581E4B94FFD7EB8DFD4A273560AA13 /* Pods-MoltinDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		21CFD76C35CBF4C5570D4ED51BC98584 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF34EAB270A3FBA4EA3833E02E602BFF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4054333EAE5ABAC6488F33ED4DA6C6B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A379AD5483F2A0B08AC25BEB10983B65 /* Address.swift in Sources */,
+				C11E3A926E9B4B042F2F5F3070CEE3DD /* Brand.swift in Sources */,
+				D8AC79E3AD95A41D2D15BCB5DE494C3E /* Cart.swift in Sources */,
+				1227FFF0A609038C0FFAE2BB8944D324 /* CartRequest.swift in Sources */,
+				A945248F86AF442F0B82AD27B1EA4F2B /* Category.swift in Sources */,
+				338ED348A5ABCE7BE675271D579FD188 /* CodableExtract.swift in Sources */,
+				6657051015D406C09CD762D4E829D2DE /* Collection.swift in Sources */,
+				FE94655046B20DF8AF5F1F07102CF0F6 /* Config.swift in Sources */,
+				3EFCB7AFB5BA94CE5056F2926AE29916 /* Currency.swift in Sources */,
+				421B558F6DBCE2B2AD46632688214B19 /* Customer.swift in Sources */,
+				3DC555634069246E08FC9580E2BF2CC3 /* CustomerRequest.swift in Sources */,
+				239C690ABE2D53AC34D5283DF791ED79 /* DataSerializer.swift in Sources */,
+				5C2B72C530D09C7286CEF03980A8CA9F /* DateFormatter.swift in Sources */,
+				46E4970F4FE9D2FC5A1A6ADC78CB72C4 /* Error.swift in Sources */,
+				6719A3768FE268219ECC6E09BC441D33 /* File.swift in Sources */,
+				233C1982CA96C771137A6C124115553B /* Flow.swift in Sources */,
+				60FC0E2237A64CE19CC99006394FE3D5 /* FlowRequest.swift in Sources */,
+				6B3B3130C056B4CE5E6DDED97720B8DB /* HTTP.swift in Sources */,
+				DAFD003B7E2329D6E1F909381373C379 /* Info-iOS.plist in Sources */,
+				1EEA4D69C9581B5FB9F9446619667326 /* Info-tvOS.plist in Sources */,
+				90ACBC9039E6D46A8C9E18D873C5168F /* Info-watchOS.plist in Sources */,
+				157FCB4E72F8DF5DF94646DE027C54A9 /* Moltin-dummy.m in Sources */,
+				CCB2B87D0CFBB69F3B84CBC6475F3345 /* Moltin.swift in Sources */,
+				73FC9A487DB0C186E59BD2105107B2D2 /* MoltinAuth.swift in Sources */,
+				952152DB5BABD9613639C3D07B30B3B9 /* MoltinRequest.swift in Sources */,
+				9788F7A7A5E791CA773F77DE32EE5D04 /* Order.swift in Sources */,
+				8AE675C23C89D80651BD9BF85531B09B /* Pagination.swift in Sources */,
+				99F61853CDEC72A6778A23BF8799D062 /* Parser.swift in Sources */,
+				318524ADE9A7ACC8C0F305A1E193E0CD /* PaymentMethod.swift in Sources */,
+				3C0D1F855BA8D173C6C27350D281BEE8 /* Prices.swift in Sources */,
+				B6B65565619D71E902596013F5E8AAF2 /* Product.swift in Sources */,
+				D477D9D897E3CA3D8C56157FF4CC066C /* Query.swift in Sources */,
+				B453D8F1B8DF6008368B13F579F18711 /* Relationship.swift in Sources */,
+				B0A5A2C104E881EDB404D59A37DD3B7A /* Requests.swift in Sources */,
+				716167A34420A4700ACF44C0C91738DE /* Timestamps.swift in Sources */,
+				2CAF4FF3AE190B094BAEEB5E27333AEC /* URLSession.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69B6946F1A7BE5905D22CAB2A4092E12 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				169A0A2A1E4DFDB1B161F6D579AD1E20 /* Pods-MoltinDemo-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3B2417E4FD150C81E19854D49FC49C82 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Moltin;
+			target = 90FE9118A4A51C2716FBAEAC877320F3 /* Moltin */;
+			targetProxy = 74A274F4414B2232DD1F4213A015C607 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		66FF636D16EDFBBFEE97616F2562537C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3D414839BA75787E692C4341B4224679 /* Moltin.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Moltin/Moltin-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Moltin/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Moltin/Moltin.modulemap";
+				PRODUCT_MODULE_NAME = moltin;
+				PRODUCT_NAME = moltin;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		86DB1458D448D7369F5D8387003FC865 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3D414839BA75787E692C4341B4224679 /* Moltin.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Moltin/Moltin-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Moltin/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Moltin/Moltin.modulemap";
+				PRODUCT_MODULE_NAME = moltin;
+				PRODUCT_NAME = moltin;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8CAAD1F9FA71E1302B05D99F8FFB373F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		B49FC5D315DB816CC5663B60601E6036 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C0A4FA4416B95EA6DC593AEC8F0DDA45 /* Pods-MoltinDemo.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MoltinDemo/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MoltinDemo/Pods-MoltinDemo.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F4AF33F04F0DDFC1DE7EB435A248BDC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4AFEE782444684645A0D4555CA5FDEDE /* Pods-MoltinDemo.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MoltinDemo/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MoltinDemo/Pods-MoltinDemo.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FFF583FA7420DC0AD49940362019A032 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		26657CFE2F23CB33D33AADA2AFA4431D /* Build configuration list for PBXNativeTarget "Pods-MoltinDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B49FC5D315DB816CC5663B60601E6036 /* Debug */,
+				F4AF33F04F0DDFC1DE7EB435A248BDC8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		29795077665EDEC8A663E50DFABB9930 /* Build configuration list for PBXNativeTarget "Moltin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66FF636D16EDFBBFEE97616F2562537C /* Debug */,
+				86DB1458D448D7369F5D8387003FC865 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFF583FA7420DC0AD49940362019A032 /* Debug */,
+				8CAAD1F9FA71E1302B05D99F8FFB373F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

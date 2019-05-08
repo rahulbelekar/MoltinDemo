@@ -1,0 +1,6 @@
+framework module Pods_MoltinDemo {
+  umbrella header "Pods-MoltinDemo-umbrella.h"
+
+  export *
+  module * { export * }
+}
